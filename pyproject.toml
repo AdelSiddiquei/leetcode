@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "solved_problems"
+version = "0.1.0"
+description = "A repo of solutions to leetcode questions"
+authors = [{ name = "Adel Siddiquei", email = "adelsiddiquei@gmail.com" }]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
