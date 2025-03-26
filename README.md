@@ -44,38 +44,38 @@ docker build -t leetcode_img .
 docker run --rm -it --name leetcode_cntnr leetcode_img
 ```
 OR
-
-To open
+To create a detached container:
 ```bash
 docker run --rm -d --name leetcode_cntnr leetcode_img
 ```
-To open a detached container named leetcode_cntnr. You can then enter this container interactively using:
+Which can be entered by running:
 ```bash
 docker exec -it leetcode_cntnr bash
 ```
-Alternatively, you run the container interactively after creating the image. To do this, after creating the image run:
+Note that the use of `--rm` flags in the `docker run` commands. This is to set up auto-deletion for the container when it is stopped.
+3. Once inside the container activate the envrionment:
 ```bash
-docker run --rm -it --name leetcode_cntnr leetcode_img
+conda activate leetcode_env
 ```
-This will mean that the container will stop as soon as you exit it from the terminal rather than running in the background.
-Note that I have included `--rm` flags in the `docker run` commands. This is to set up auto-deletion for the container when it is stopped.
-Also Note that once inside the container you will have to run `conda activate leetcode_env` to activate the environment.
 
 ### Venv
-Run: 
+1. Create a Venv:
 ```bash
 python3 -m venv venv  
+```
+2. Activate venv:
+```bash
 source venv/bin/activate  
 ```
-To create and activate a Venv called venv, now run  
+3. Install dependancies:
 ```bash
 pip install -r requirements.txt  
 ```
-to install dependancies. Now run  
+4.  To install the package to your environment.
 ```bash
 pip install .  
 ```
-To install the package to your environment.
+
 
 ## Installation
 
