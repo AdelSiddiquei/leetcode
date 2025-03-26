@@ -13,8 +13,5 @@ RUN conda env create -f environment.yaml
 # Copy everythinge else, can be split up if project becomes larger.
 COPY . .
 
-# Configure the environment.
-# ENV PATH="/opt/conda/envs/$(head -1 environment.yml | cut -d' ' -f2)/bin:$PATH"
-
 # Command to run when container starts, in this case it is designed to keep container running forever.
 CMD ["tail", "-f", "/dev/null"]
