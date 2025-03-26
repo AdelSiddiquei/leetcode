@@ -12,6 +12,14 @@ For example, "test_q121.py"
 
 ## Usage
 I will be adding instructions for using this repo with Conda, Venv and Docker once they are implemented. Currently only implemented Conda environment, instrctions to come.
+The first step is to clone this repo, and then use the appropriate method to install the package. Instructions using Conda, Venv and Docker are below:
+
+### Conda
+
+### Docker
+The Dockerfile has been set up such that a user is expected to enter a container interactively and explore my solutions/tests in terminal. 
+
+### Venv
 
 ## Installation
 
