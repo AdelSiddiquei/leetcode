@@ -13,9 +13,6 @@ https://leetcode.com/problems/best-time-to-buy-and-sell-stock
 
 class Solution:
     def __init__(self):
-        """
-        I will update this class with better/alternate solutions as I become more proficient/knowledgable.
-        """
         self.solution_count = 1  # update as more solutions made
 
     def solution_1(self, prices):
