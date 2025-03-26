@@ -29,7 +29,7 @@ pip install .
 to install the package to your environment.
 
 ### Docker
-The Dockerfile has been set up such that a user is expected to enter a container interactively and explore my solutions/tests in terminal.  
+The Dockerfile has been set up such that a user is expected to enter a container interactively and explore my solutions/tests in terminal.   
 First run:
 ```bash
 docker build -t leetcode_img .
@@ -48,6 +48,8 @@ docker run --rm -it --name leetcode_cntnr leetcode_img
 ```
 This will mean that the container will stop as soon as you exit it from the terminal rather than running in the background.
 Note that I have included `--rm` flags in the `docker run` commands. This is to set up auto-deletion for the container when it is stopped.
+Also Note that once inside the container you will have to run `conda activate leetcode_env` to activate the environment.
+
 ### Venv
 Run: 
 ```bash
