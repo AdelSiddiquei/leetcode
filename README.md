@@ -38,7 +38,7 @@ Below are instructions on how to run the solutions, and tests with different pac
      ```
 2. Run the Docker container.
      ```bash
-     docker run --rm --name leetcode_cntnr leetcode_img
+     docker run --rm -d --name leetcode_cntnr leetcode_img
      ```
 3. Enter the container. 
      ```bash
