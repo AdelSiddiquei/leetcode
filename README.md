@@ -10,6 +10,13 @@ Each of these solution classes will have a  `self.solution_count` attribute wher
 The solved problems will go in the [leetcode_solutions](./leetcode_solutions) directory, with the file named as the question number from [Leetcode](https://leetcode.com/).
 The corresponding test goes within the tests folder, named the same.
 
+### Table of Solutions
+| Question      | Solution      | Algorithms Used |
+| ------------- | ------------- | -------------   | 
+| [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)  | [q121.py](./leetcode_solutions/q121.py)  |                 |
+| Content Cell  | Content Cell  |
+
+
 ## Usage
 Below are instructions on how to run the solutions, and tests with different package managers: Conda, Python venv and Docker.
 
