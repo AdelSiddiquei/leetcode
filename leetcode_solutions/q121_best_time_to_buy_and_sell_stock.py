@@ -11,7 +11,7 @@ https://leetcode.com/problems/best-time-to-buy-and-sell-stock
 """
 
 
-class Q121:
+class Solution:
     def __init__(self):
         """
         I will update this class with better/alternate solutions as I become more proficient/knowledgable.
