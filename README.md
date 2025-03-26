@@ -1,6 +1,10 @@
 # Leetcode
-This repo contains all the leetcode problems I have solved.  
-Each problem I solve will have a `Class` containing the solutions as methods, which I will be updating with new solutions as I learn new/different ways to tackle them. Each of these solution classes will have a  
+This repo contains a collection of leetcode problems that I have solved. 
+All solutions live inside the leetcode_solutions folder, which is structured as a package, with the associated tests in the tests folder.  
+  
+Each question and the relevant solution is written within it's own file, named appropriately. Each file contains a class containing all implemented solutions as methods of the class. Some classes have multiple solutions, and are regularly updateed as and when I discover new algorithms to make more efficient solutions.
+
+Each of these solution classes will have a  
 `self.solution_count` attribute where I will be keeping track of the number of solutions I have coded for that problem.
 
 ## File structure
@@ -29,12 +33,19 @@ pip install .
 to install the package to your environment.
 
 ### Docker
-The Dockerfile has been set up such that a user is expected to enter a container interactively and explore my solutions/tests in terminal.   
-First run:
+To run the solutions in an isolated container:
+
+1. Build the Docker image:
 ```bash
 docker build -t leetcode_img .
 ```
-To build the image, then run:
+2. To start an interactive container session:
+```bash
+docker run --rm -it --name leetcode_cntnr leetcode_img
+```
+OR
+
+To open
 ```bash
 docker run --rm -d --name leetcode_cntnr leetcode_img
 ```
@@ -69,8 +80,8 @@ To install the package to your environment.
 ## Installation
 
 ## Testing
-Once package has been downloaded, one can use the:
+Once package has been downloaded, and environment activated one can use the:
 ```bash
 pytest
 ```
-command in cli to run the tests in ./tests
+command in cli to run the tests in `./tests`
