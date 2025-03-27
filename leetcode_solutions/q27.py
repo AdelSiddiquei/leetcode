@@ -25,12 +25,4 @@ class Solution:
             if array[i] != value:
                 array[self.difcount] = array[i]
                 self.difcount += 1
-            return self.difcount
-
-            
         return self.difcount
-
-solver = Solution()
-array = [3, 2, 2, 3]
-solver.solution_1(array, 3)
-print(array)
