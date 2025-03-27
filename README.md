@@ -14,7 +14,9 @@ The corresponding test goes within the tests folder, named the same.
 | Question      | Solution      | Algorithms Used |
 | ------------- | ------------- | -------------   | 
 | [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)  | [q121.py](./leetcode_solutions/q121.py)  |                 |
-| Content Cell  | Content Cell  |
+| [27. Remove Element](https://leetcode.com/problems/remove-element)|  [q27.py](./leetcode_solutions/q27.py)  | |
+| [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)  |  [q88.py](./leetcode_solutions/q88.py)  | |
+| Content cell| | |
 
 
 ## Usage
