@@ -11,20 +11,26 @@ class Solution:
 
     def solution_1(self, array: list, value):
         """
-        Changes an inputed list in place such that any entry matching the given value is put at the end.
+        Changes an inputed list in place such that all elements different from given value are listed first.
+        Check self.difcount for how many elements are different from value.
         Args:
-            array (list): _description_
-            value (array.dtypy): _description_
+            array (list): array to be cleaned.
+            value (): The element value to be removed from list.
 
         Returns:
-            int: number of entries that did not match the given value.
+            array: all elements not matching the value in array[:self.difcount]
         """
-        self.difcount = len(array)
-        for i in range(self.difcount):
-            if array[i] == value:
-                self.difcount -= 1
-                r = array.pop(array[i])
-                array.append(r)
-            else:
-                continue
+        self.difcount = 0
+        for i in range(len(array)):
+            if array[i] != value:
+                array[self.difcount] = array[i]
+                self.difcount += 1
+            return self.difcount
+
+            
         return self.difcount
+
+solver = Solution()
+array = [3, 2, 2, 3]
+solver.solution_1(array, 3)
+print(array)
