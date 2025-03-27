@@ -11,11 +11,12 @@ The solved problems will go in the [leetcode_solutions](./leetcode_solutions) di
 The corresponding test goes within the tests folder, named the same.
 
 ### Table of Solutions
-| Question      | Solution      | Algorithms Used |
-| ------------- | ------------- | -------------   | 
-| [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)  | [q121.py](./leetcode_solutions/q121.py)  |                 |
-| [27. Remove Element](https://leetcode.com/problems/remove-element)|  [q27.py](./leetcode_solutions/q27.py)  | |
-| [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)  |  [q88.py](./leetcode_solutions/q88.py)  | |
+| Question      | Solution      | Algorithms Used |  
+| ------------- | ------------- | -------------   |  
+| [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)  | [q121.py](./leetcode_solutions/q121.py)  |                 |  
+| [27. Remove Element](https://leetcode.com/problems/remove-element)|  [q27.py](./leetcode_solutions/q27.py)  | |  
+| [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)  |  [q88.py](./leetcode_solutions/q88.py)  | |  
+| [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | [q26.py](./leetcode_solutions/q26.py) | |
 | Content cell| | |
 
 
