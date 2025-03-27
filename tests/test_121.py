@@ -1,4 +1,4 @@
-from leetcode_solutions.q121_best_time_to_buy_and_sell_stock import Solution
+from leetcode_solutions.q121 import Solution
 
 
 def test_case_1():
