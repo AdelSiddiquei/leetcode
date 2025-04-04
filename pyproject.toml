@@ -7,7 +7,14 @@ name = "leetcode_solutions"
 version = "0.1.0"
 description = "A repo of solutions to leetcode questions"
 authors = [{ name = "Adel Siddiquei", email = "adelsiddiquei@gmail.com" }]
-dependencies = []
+dependencies = [
+    "jupyter>=1.1.1",
+    "matplotlib>=3.9.4",
+    "numpy>=2.0.2",
+    "pandas>=2.2.3",
+    "pytest>=8.3.5",
+    "ruff>=0.11.3",
+]
 
 [tool.setuptools.packages.find]
 where = ["."]
