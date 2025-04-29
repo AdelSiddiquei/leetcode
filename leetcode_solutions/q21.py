@@ -9,8 +9,10 @@ class Solution:
         self.solution_count = 1  # update as more solutions made
 
     def solution_1(self, list1: list, list2: list) -> list:
-        if not list1: return list2
-        if not list2: return list1
+        if not list1:
+            return list2
+        if not list2:
+            return list1
         merged = []
         i = j = 0
 
@@ -24,5 +26,3 @@ class Solution:
         merged.extend(list1[i:])
         merged.extend(list2[j:])
         return merged
-
-
