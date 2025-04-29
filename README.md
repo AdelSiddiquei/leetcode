@@ -17,11 +17,12 @@ The corresponding test goes within the tests folder, named the same.
 | [27. Remove Element](https://leetcode.com/problems/remove-element)|  [q27.py](./leetcode_solutions/q27.py)  | |  
 | [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)  |  [q88.py](./leetcode_solutions/q88.py)  | |  
 | [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | [q26.py](./leetcode_solutions/q26.py) | |
-| [1. Two Sum](https://leetcode.com/problems/two-sum/description/)| [q1.py](./leetcode_solutions/q1.py)| |
-| [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)| [q9.py](./leetcode_solutions/q29.py)| |
-| [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/)|  [q13.py](./leetcode_solutions/q13.py)  | | 
-| [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)|  [q14.py](./leetcode_solutions/q14.py)  | | 
-| [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)| [q20.py](./leetcode_solutions/q20.py)| |
+| [1. Two Sum](https://leetcode.com/problems/two-sum/)| [q1.py](./leetcode_solutions/q1.py)| |
+| [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)| [q9.py](./leetcode_solutions/q29.py)| |
+| [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|  [q13.py](./leetcode_solutions/q13.py)  | | 
+| [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|  [q14.py](./leetcode_solutions/q14.py)  | | 
+| [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| [q20.py](./leetcode_solutions/q20.py)| |
+| [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)| [q21.py](./leetcode_solutions/q21.py)| |
 | Content cell| | |
 
 
