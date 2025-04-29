@@ -14,7 +14,12 @@ class Solution:
         
         sum = 0
 
-        for char in numeral:
-            pass
+        for i in range(len(numeral)-1):
+            if roman[numeral[i]] < roman[numeral[i+1]]: #checking numeral left to right
+                sum -= roman[numeral[i]]
+            else:
+                sum += roman[numeral[i]]
+        sum += roman[numeral[-1]]
+        return sum
 
 
