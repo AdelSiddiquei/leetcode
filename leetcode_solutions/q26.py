@@ -13,7 +13,7 @@ class Solution:
     self.difcount for nubmer of unique elements found in array from most recent call of a solution (initialised to 0)
     """
     def __init__(self):
-        self.solution_count = 1  # update as more solutions made
+        self.solution_count = 2  # update as more solutions made
         self.difcount = 0
     def solution_1(self, array : list) -> int:
         """Two pointer method
