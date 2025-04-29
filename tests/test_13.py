@@ -1,11 +1,11 @@
-from leetcode_solutions.q9 import Solution
+from leetcode_solutions.q13 import Solution
 
-test_input_1 = 121
-expected_output_1 = True
-test_input_2 = -121
-expected_output_2 = False
-test_input_3 = 10
-expected_output_3 = False
+test_input_1 = "III"
+expected_output_1 = 3
+test_input_2 = "LVIII"
+expected_output_2 = 58
+test_input_3 = "MCMXCIV"
+expected_output_3 = 1994
 
 
 def test_solution_1():
