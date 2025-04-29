@@ -21,6 +21,7 @@ The corresponding test goes within the tests folder, named the same.
 | [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)| [q9.py](./leetcode_solutions/q29.py)| |
 | [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/)|  [q13.py](./leetcode_solutions/q13.py)  | | 
 | [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)|  [q14.py](./leetcode_solutions/q14.py)  | | 
+| [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)| [q20.py](./leetcode_solutions/q20.py)| |
 | Content cell| | |
 
 
