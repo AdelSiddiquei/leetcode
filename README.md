@@ -17,6 +17,8 @@ The corresponding test goes within the tests folder, named the same.
 | [27. Remove Element](https://leetcode.com/problems/remove-element)|  [q27.py](./leetcode_solutions/q27.py)  | |  
 | [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)  |  [q88.py](./leetcode_solutions/q88.py)  | |  
 | [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | [q26.py](./leetcode_solutions/q26.py) | |
+| [1. Two Sum](https://leetcode.com/problems/two-sum/description/)| [q1.py](./leetcode_solutions/q1.py)| |
+| Content cell| | |
 | Content cell| | |
 
 
