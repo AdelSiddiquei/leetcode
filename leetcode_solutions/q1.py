@@ -19,11 +19,10 @@ class Solution:
             list: The indices of the numbers that sum to the target from the input list.
         """
         seen = {}
-        
+
         for i, num in enumerate(input):
             complement = target - num
             if complement in seen:
                 return [seen[complement], i]
             seen[num] = i
         return "No Solution found"
-            
