@@ -18,12 +18,13 @@ The corresponding test goes within the tests folder, named the same.
 | [88. Merge Sorted Array](https://leetcode.com/problems/merge-sorted-array)  |  [q88.py](./leetcode_solutions/q88.py)  | |  
 | [26. Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array) | [q26.py](./leetcode_solutions/q26.py) | |
 | [1. Two Sum](https://leetcode.com/problems/two-sum/)| [q1.py](./leetcode_solutions/q1.py)| |
-| [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)| [q9.py](./leetcode_solutions/q29.py)| |
+| [9. Palindrome Number](https://leetcode.com/problems/palindrome-number/)| [q9.py](./leetcode_solutions/q9.py)| |
 | [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/)|  [q13.py](./leetcode_solutions/q13.py)  | | 
 | [14. Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/)|  [q14.py](./leetcode_solutions/q14.py)  | | 
 | [20. Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)| [q20.py](./leetcode_solutions/q20.py)| |
 | [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)| [q21.py](./leetcode_solutions/q21.py)| |
 | [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string)| [q28.py](./leetcode_solutions/q28.py)| |
+| [35. Search Insert Position](https://leetcode.com/problems/search-insert-position)| [q35.py](./leetcode_solutions/q25.py)| |
 | Content cell| | |
 
 
