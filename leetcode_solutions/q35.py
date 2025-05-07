@@ -19,10 +19,10 @@ class Solution:
             int: index of where the target would fit if added to sorted array
         """
         for n, x in enumerate(array):
-            if x >= target: 
-                return n                #return the index which the target fits
-        return len(array)                  #returns final index in case of no x in array >= target
-    
+            if x >= target:
+                return n  # return the index which the target fits
+        return len(array)  # returns final index in case of no x in array >= target
+
     def solution_2(self, array: list, target: int) -> int:
         """Binary Search to find the index a target number would take when added to a sorted array
 
@@ -35,7 +35,7 @@ class Solution:
         """
         left, right = 0, len(array)
         while left < right:
-            mid = (left + right)//2
+            mid = (left + right) // 2
             if array[mid] < target:
                 left = mid + 1
             else:
