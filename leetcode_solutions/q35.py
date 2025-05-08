@@ -6,7 +6,7 @@ https://leetcode.com/problems/search-insert-position
 
 class Solution:
     def __init__(self):
-        self.solution_count = 1  # update as more solutions made
+        self.solution_count = 2  # update as more solutions made
 
     def solution_1(self, array: list, target: int) -> int:
         """A function that returns the index a target number would have when placed into a sorted array.

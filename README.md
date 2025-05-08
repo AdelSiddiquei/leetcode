@@ -25,6 +25,7 @@ The corresponding test goes within the tests folder, named the same.
 | [21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)| [q21.py](./leetcode_solutions/q21.py)| |
 | [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string)| [q28.py](./leetcode_solutions/q28.py)| |
 | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position)| [q35.py](./leetcode_solutions/q25.py)| Binary Search Algorithm |
+| [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word)| [q58.py](./leetcode_solutions/q58.py)| |
 | Content cell| | |
 
 
