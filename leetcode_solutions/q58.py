@@ -19,21 +19,19 @@ class Solution:
             int: Length of final word in string.
         """
 
-        sentence = sentence.rstrip()                #remove trailing whitespace
-        sentence = sentence.split()                 #Split the string into a list of words
+        sentence = sentence.rstrip()  # remove trailing whitespace
+        sentence = sentence.split()  # Split the string into a list of words
 
         return len(sentence[-1])
 
-    # def solution_2(self, sentence: str) -> int:
-        
-    #     i = len(sentence) -1
+    def solution_2(self, sentence: str) -> int:
+        i = len(sentence) - 1
 
-    #     while i >= 0 and sentence[i] == ' ':
-    #         i -= 1                              #Skipping any trailing whitespace
-        
-    #     length = 0
-    #     while i >= 0 and sentence[i] != ' ':    #Counting the letters in the word
-    #         length += 1
-    #     return length
+        while i >= 0 and sentence[i] == " ":
+            i -= 1  # Skipping any trailing whitespace
 
-    """ Solution 2 seems to break pytest? come back"""
+        length = 0
+        while i >= 0 and sentence[i] != " ":  # Counting the letters in the word
+            length += 1
+            i -= 1
+        return length
