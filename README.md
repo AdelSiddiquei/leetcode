@@ -26,6 +26,7 @@ The corresponding test goes within the tests folder, named the same.
 | [28. Find the Index of the First Occurrence in a String](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string)| [q28.py](./leetcode_solutions/q28.py)| |
 | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position)| [q35.py](./leetcode_solutions/q25.py)| Binary Search Algorithm |
 | [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word)| [q58.py](./leetcode_solutions/q58.py)| |
+| [66. Plus One](https://leetcode.com/problems/plus-one)| [q66.py](./leetcode_solutions/q66.py)| |
 | Content cell| | |
 
 
