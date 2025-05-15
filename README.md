@@ -27,6 +27,7 @@ The corresponding test goes within the tests folder, named the same.
 | [35. Search Insert Position](https://leetcode.com/problems/search-insert-position)| [q35.py](./leetcode_solutions/q25.py)| Binary Search Algorithm |
 | [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word)| [q58.py](./leetcode_solutions/q58.py)| |
 | [66. Plus One](https://leetcode.com/problems/plus-one)| [q66.py](./leetcode_solutions/q66.py)| |
+| [69. Sqrt(x)](https://leetcode.com/problems/sqrtx)| [q69.py](./leetcode_solutions/q69.py)| |
 | Content cell| | |
 
 
